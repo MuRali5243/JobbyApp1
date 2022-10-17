@@ -1,0 +1,12 @@
+.similar-item-cont {
+  width: 300px;
+  margin-right: 30px;
+  background-color: #2c364c;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.ul-sim-cont {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,19 @@
+.filter-cont {
+  width: 200px;
+  color: white;
+  font-size: 20px;
+}
+
+.filter-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+.filter-item {
+  margin-bottom: 10px;
+}
+.filter-lable {
+  margin-left: 12px;
+}

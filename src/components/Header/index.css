@@ -1,0 +1,24 @@
+.header-list-cont {
+  list-style-type: none;
+  display: flex;
+  margin-right: 10px;
+}
+.header-img {
+  width: 100px;
+  height: 45px;
+}
+.li-item {
+  margin-right: 15px;
+}
+.head-main-cont {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.head-btn {
+  width: 80px;
+  height: 30px;
+}

@@ -1,0 +1,27 @@
+.pro-cont {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 10px;
+  border-radius: 5px;
+}
+@media (max-width: 767px) {
+  .pro-cont {
+    width: 250px;
+    font-size: 18px;
+  }
+}
+.pro-img {
+  width: 60px;
+  height: 60px;
+}
+.pro-content {
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
