@@ -11,7 +11,7 @@ const Header = props => {
   }
 
   return (
-    <div className="head-main-cont">
+    <ul className="head-main-cont">
       <Link to="/">
         <img
           className="header-img"
@@ -20,18 +20,20 @@ const Header = props => {
         />
       </Link>
 
-      <ul className="header-list-cont">
+      <li className="header-list-cont">
         <Link to="/">
           <li className="li-item">Home</li>
         </Link>
         <Link to="/jobs">
           <li className="li-item">Jobs</li>
         </Link>
-      </ul>
-      <button className="head-btn" type="button" onClick={onclickk}>
-        Logout
-      </button>
-    </div>
+      </li>
+      <li>
+        <button className="head-btn" type="button" onClick={onclickk}>
+          Logout
+        </button>
+      </li>
+    </ul>
   )
 }
 

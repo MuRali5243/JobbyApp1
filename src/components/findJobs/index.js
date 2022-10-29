@@ -159,7 +159,7 @@ class FindJobs extends Component {
 
     if (l !== 0) {
       return (
-        <ul>
+        <ul className="list-item-cont">
           {list.map(item => (
             <JobItem key={item.id} det={item} />
           ))}
@@ -210,14 +210,14 @@ class FindJobs extends Component {
         <div className="findjobs-body-cont">
           <div className="findjobs-body-cont-left">
             {profstatus ? this.profilesuccess() : this.profilefail()}
-            {
+            <div>
               <Filter
                 empfun={this.filterempFun}
                 salfun={this.filtersalFun}
                 emp={employmentTypesList}
                 sal={salaryRangesList}
               />
-            }
+            </div>
           </div>
           <div className="findjobs-body-cont-right">
             <div className="search-btn-cont">

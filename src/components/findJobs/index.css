@@ -1,6 +1,6 @@
 .findjobs-body-cont {
   width: 100vw;
-  height: 100vh;
+
   display: flex;
   background-color: black;
   padding: 20px;
@@ -23,7 +23,7 @@
   flex-direction: column;
 
   padding: 10px;
-  overflow: auto;
+
   padding-top: 30px;
   padding-right: 30px;
 }
@@ -66,4 +66,11 @@ ul {
   list-style-type: none;
   margin-left: 0px;
   padding: 0px;
+}
+.status-check-cont {
+  overflow: auto;
+}
+.list-item-cont {
+  overflow-y: scroll;
+  height: 132.5vh;
 }
